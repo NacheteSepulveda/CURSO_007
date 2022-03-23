@@ -1,0 +1,90 @@
+html {
+    font-family: sans-serif;
+    background-color: #393939;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    left: 0;
+}
+
+.colores {
+    width: 80%;
+    float: right;
+    margin-left: 25%;
+}
+
+.menuItem {
+    padding-left: 5%;
+    color: white;
+    font-size: larger;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: lightgray;
+}
+
+.seccionColor {
+    text-align: justify;
+    height: 25%;
+    top: 0;
+    margin-right: 3em;
+    padding: 2em 8em 2em 8em;
+    color: white;
+    text-align: justify;
+}
+
+.primero {
+    background-color: lightblue;
+}
+
+.segundo {
+    background-color: yellow;
+}
+
+.tercero {
+    background-color: orange;
+}
+
+.cuarto {
+    background-color: red;
+}
+
+/* Investigación:*/
+
+    /* div{
+    modificar todo
+    margin: 20%; 
+
+    Margen de arriba
+    margin-top: 20%; 
+
+    Margen de abajo
+    margin-bottom: 20%; 
+
+    Margen izquierdo
+    margin-left: 20%; 
+
+    Margen derecho
+    margin-right: 20%; 
+    } */
+
+ 
+    /* margin: 5% 5% 5% 5%
+
+ Múltiples cursores:
+    windows + D */
+
+
