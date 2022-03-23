@@ -1,33 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>AYUDA A UN PELUDO</title>
+    <style>
+        html {
+            font-family: sans-serif;
+            background-color: #393939;
+        }
 
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 20%;
+
+            height: 100%;
+            position: fixed;
+            overflow: auto;
+            top: 0;
+            left: 0;
+        }
+
+        .colores {
+            width: 80%;
+            float: right;
+            margin-left: 25%;
+        }
+
+        .menuItem {
+            padding-left: 5%;
+            color: white;
+            font-size: larger;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        li a:hover {
+            color: lightgray;
+        }
+
+        .seccionColor p {
+            text-align: justify;
+        }
+        .seccionColor p,h1{
+            color: white;
+        }
+        .seccionColor {
+            text-align: justify;
+            height: 25%;
+            top: 0;
+            margin-right: 3em;
+            padding: 2em 8em 2em 8em;
+        }
+
+        .primero {
+            background-color: lightblue;
+        }
+
+        .segundo {
+            background-color: yellow;
+        }
+
+        .tercero {
+            background-color: orange;
+        }
+
+        .cuarto {
+            background-color: red;
+        }
+    </style>
 </head>
-<body>
-    <h1 align = "center">ONG - AYUDA A UN PELUDO</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Fuga placeat aperiam tenetur quis rem consectetur, atque voluptate amet laudantium commodi, id eos, ea temporibus quae hic sit ex velit. Illo.</p>
-        <h1 align = "center"> Nuestros integrantes: </h1>
-    <ul>
-        <li>Ignacio Sepúlveda - Lider de proyecto </li>
-        <li>Angelo Concha - Desarrollador </li>
-        <li>Milton Pereira - Desarrollador </li>
-        <li>Paula Velasquez - Desarrolladora </li>
-    </ul>
-    <h1 align = "center">Nuestras secciones</h1>
-    <table style="margin-left: 2em; margin-top: 2em;">
-        <tr>
-            <td> <img src="IMG/PERROQLO.jpg" width="200px" alt=""></td>
-            <td><a href="Perro.html">PERRO</a></td>
-        </tr>
-        <tr>
-            <td><img src="IMG/GATOS.jpeg" width="200px" alt=""></td>
-            <td><a href="Gato.html">GATOS</a></td>
-        </tr>
-    </table>
 
+<body>
+    <!--MENU -->
+    <ul class="navbar">
+        <li class="menuItem" style="padding-top: 15%;"><a href="">Inicio</a></li>
+        <li class="menuItem"><a href="">Nosotros</a></li>
+        <li class="menuItem"><a href="">Perros</a></li>
+        <li class="menuItem"><a href="">Gatos</a></li>
+        <li class="menuItem"><a href="">Contactos</a></li>
+    </ul>
+    <!-- PARTE PRINCIPAL -->
+    <div class="colores">
+        <!-- SECCION DE COLORES -->
+        <div class="seccionColor primero">
+            <h1>Lorem ipsum dolor</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vel debitis iusto suscipit voluptatem
+                officiis quaerat dicta. Aut, perspiciatis culpa animi repellendus magnam ut? Natus perferendis a nobis
+                tempora. Porro.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vel debitis iusto
+                suscipit voluptatem officiis quaerat dicta. Aut, perspiciatis culpa animi repellendus magnam ut? Natus
+                perferendis a nobis tempora. Porro.</p>
+        </div>
+        <div class="seccionColor segundo">
+            <h1>Lorem ipsum dolor</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vel debitis iusto suscipit voluptatem
+                officiis quaerat dicta. Aut, perspiciatis culpa animi repellendus magnam ut? Natus perferendis a nobis
+                tempora. Porro.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vel debitis iusto
+                suscipit voluptatem officiis quaerat dicta. Aut, perspiciatis culpa animi repellendus magnam ut? Natus
+                perferendis a nobis tempora. Porro.</p>
+        </div>
+        <div class="seccionColor tercero">
+            <h1>Lorem ipsum dolor</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vel debitis iusto suscipit voluptatem
+                officiis quaerat dicta. Aut, perspiciatis culpa animi repellendus magnam ut? Natus perferendis a nobis
+                tempora. Porro.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vel debitis iusto
+                suscipit voluptatem officiis quaerat dicta. Aut, perspiciatis culpa animi repellendus magnam ut? Natus
+                perferendis a nobis tempora. Porro.</p>
+        </div>
+        <div class="seccionColor cuarto">
+            <h1>Lorem ipsum dolor</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vel debitis iusto suscipit voluptatem
+                officiis quaerat dicta. Aut, perspiciatis culpa animi repellendus magnam ut? Natus perferendis a nobis
+                tempora. Porro.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vel debitis iusto
+                suscipit voluptatem officiis quaerat dicta. Aut, perspiciatis culpa animi repellendus magnam ut? Natus
+                perferendis a nobis tempora. Porro.</p>
+        </div>
+
+
+
+        <h1 align="center">ONG - AYUDA A UN PELUDO</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Fuga placeat aperiam tenetur quis rem consectetur, atque voluptate amet laudantium commodi, id eos, ea
+            temporibus quae hic sit ex velit. Illo.</p>
+        <h1 align="center"> Nuestros integrantes: </h1>
+        <ul>
+            <li>Ignacio Sepúlveda - Lider de proyecto </li>
+            <li>Angelo Concha - Desarrollador </li>
+            <li>Milton Pereira - Desarrollador </li>
+            <li>Paula Velasquez - Desarrolladora </li>
+        </ul>
+        <h1 align="center">Nuestras secciones</h1>
+        <table style="margin-left: 2em; margin-top: 2em;">
+            <tr>
+                <td> <img src="IMG/PERROQLO.jpg" width="200px" alt=""></td>
+                <td><a href="Perro.html">PERRO</a></td>
+            </tr>
+            <tr>
+                <td><img src="IMG/GATOS.jpeg" width="200px" alt=""></td>
+                <td><a href="Gato.html">GATOS</a></td>
+            </tr>
+        </table>
+    </div>
 
 </body>
+
 </html>
