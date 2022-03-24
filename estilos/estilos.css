@@ -1,0 +1,97 @@
+.todo{
+    background-color:rgb(39, 38, 38);
+}
+
+.barra{
+   font-family: sans-serif ; 
+   width: 20%;
+   height: 100%;
+   position: fixed;
+   background-color: rgb(39, 38, 38);
+  
+   
+}
+.barra ul{
+    list-style: none;
+    margin-left: 5%;
+    padding: 0px;
+    text-align: left;
+}
+.barra li{  
+}
+.barra a{
+    text-decoration: none;
+    color: white;
+}
+
+.parrafo1{
+    padding: 10em;
+    font-family: sans-serif;
+    text-align: justify;
+    margin-right: 2%;
+    height: 25%;
+    padding-left: 25%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    color: white;
+    
+}
+.color1{
+    background-color: aqua;
+    
+}
+.parrafo2{
+    padding: 5em;
+    font-family: sans-serif;
+    text-align: justify;
+    margin-right: 2%;
+    height: 25%;
+    padding-left: 25%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    color: white;
+    
+}
+.color2{
+    background-color: rgb(206, 188, 28);
+    
+}
+
+.parrafo3{
+    font-family: sans-serif;
+    text-align: justify;
+    margin-right: 2%;
+    height: 25%;
+    padding-left: 25%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    color: white;
+    
+}
+.color3{
+    background-color: rgb(206, 129, 28);
+    
+}
+
+.parrafo4{
+    font-family: sans-serif;
+    text-align: justify;
+    margin-right: 2%;
+    height: 25%;
+    padding-left: 25%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-right: 2%;
+    color: white;
+    
+    
+}
+.color4{
+    background-color: rgb(206, 28, 28);
+    
+}
+
+
