@@ -13,10 +13,7 @@
         <div class="form-row">
           <div class="col-md-4 mb-3">
             <label for="validationServer01">Nombre Completo</label>
-            <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Nombre" value="Mark" required>
-            <div class="valid-feedback">
-              Valido!
-            </div>
+            <input type="text" class="form-control" id="validationServer01" placeholder="Nombre" value="" required>
           </div>
           <div class="col-md-4 mb-3">
             <label for="validationServerUsername">E-mail</label>
@@ -24,64 +21,38 @@
               <div class="input-group-prepend">
                 <span class="input-group-text" id="inputGroupPrepend3">@</span>
               </div>
-              <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Correo" aria-describedby="inputGroupPrepend3" required>
-              <div class="valid-feedback">
-                Ingrese su E-mail.
-              </div>
+              <input type="text" class="form-control " id="validationServerUsername" placeholder="Correo" aria-describedby="inputGroupPrepend3" required>
             </div>
           </div>
           <div class="col-md-3">
-            <label for="validationCustom04" class="form-label">State</label>
+            <label for="validationCustom04" class="form-label">Seleccione</label>
             <select class="form-select" id="validationCustom04" required>
-              <option selected disabled value="">Choose...</option>
-              <option>...</option>
+              <option selected disabled value="">Rut</option>
+              <option>Pasaporte</option>
             </select>
             <div class="invalid-feedback">
               Please select a valid state.
             </div>
           <div class="col-md-4 mb-3">
             <label for="validationServer02"></label>
-            <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Otto" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
+            <input type="text" class="form-control" id="validationServer02" placeholder="Rut o Pasaporte" value="" required>
           </div>
         </div>
         <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationServer01">Numero de telefono</label>
+            <input type="text" class="form-control" id="validationServer01" placeholder="telefono" value="" required>
+          </div>
+        <div class="form-row">
           <div class="col-md-6 mb-3">
-            <label for="validationServer03">City</label>
-            <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
+            <label for="validationServer03">Ingrese ciudad de residencia</label>
+            <input type="text" class="form-control" id="validationServer03" placeholder="Ciudad" required>
             <div class="invalid-feedback">
-              Please provide a valid city.
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="validationServer04">State</label>
-            <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
-            <div class="invalid-feedback">
-              Please provide a valid state.
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="validationServer05">Zip</label>
-            <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
-            <div class="invalid-feedback">
-              Please provide a valid zip.
             </div>
           </div>
         </div>
-        <div class="form-group">
-          <div class="form-check">
-            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
-            <label class="form-check-label" for="invalidCheck3">
-              Agree to terms and conditions
-            </label>
-            <div class="invalid-feedback">
-              You must agree before submitting.
-            </div>
-          </div>
-        </div>
-        <button class="btn btn-primary" type="submit">Submit form</button>
+        <button class="btn btn-primary" type="submit">Enviar</button>
+        <button class="btn btn-primary" type="reset">Limpiar</button>
       </form>
 
 
