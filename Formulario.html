@@ -6,14 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      function validar(){
+        var form = document.form;
+
+        if (form.nombre.value==0){
+          alert("EL CAMPO NOMBRE ESTA VACIO");
+          form.nombre.value="";
+          form.nombre.focus();
+          return false;
+        }
+
+        if (form.correo.value==0){
+          alert("EL CAMPO EMAIL ESTA VACIO");
+          form.correo.value="";
+          form.correo.focus();
+          return false;
+        }
+
+        alert("datos enviados con exito");
+        form.submit();
+
+
+        
+      }
+
+
+      </script>
 
 </head>
 <body>
-    <form>
+    <form id="Formulario" action="#" method="get" onsubmit="">
         <div class="form-row">
           <div class="col-md-4 mb-3">
             <label for="validationServer01">Nombre Completo</label>
-            <input type="text" class="form-control" id="validationServer01" placeholder="Nombre" value="" required>
+            <input type="text" class="form-control" id="validationServer01" name="nombre" placeholder="Nombre" value="" required>
           </div>
           <div class="col-md-4 mb-3">
             <label for="validationServerUsername">E-mail</label>
@@ -21,14 +50,15 @@
               <div class="input-group-prepend">
                 <span class="input-group-text" id="inputGroupPrepend3">@</span>
               </div>
-              <input type="text" class="form-control " id="validationServerUsername" placeholder="Correo" aria-describedby="inputGroupPrepend3" required>
+              <input type="text" class="form-control " id="validationServerUsername" name="correo" placeholder="Correo" aria-describedby="inputGroupPrepend3" required>
             </div>
           </div>
           <div class="col-md-3">
             <label for="validationCustom04" class="form-label">Seleccione</label>
             <select class="form-select" id="validationCustom04" required>
-              <option selected disabled value="">Rut</option>
+              <option selected disabled value=""></option>
               <option>Pasaporte</option>
+              <option>Rut</option>
             </select>
             <div class="invalid-feedback">
               Please select a valid state.
@@ -51,7 +81,7 @@
             </div>
           </div>
         </div>
-        <button class="btn btn-primary" type="submit">Enviar</button>
+        <button class="btn btn-primary" type="submit"> Enviar </button>
         <button class="btn btn-primary" type="reset">Limpiar</button>
       </form>
 
